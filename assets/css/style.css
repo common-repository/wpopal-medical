@@ -1,0 +1,156 @@
+/*Frontend Styles*/
+.widget-medical .column-item {
+	margin-bottom: 25px;
+}
+.medical-grid_v3 article {
+	position: relative;
+	overflow: hidden;
+	padding: 15px;
+}
+.medical-grid_v3 article .background-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	font-size: 0;
+}
+.medical-grid_v3 .medical-wrapper {
+	position: relative;
+	z-index: 99;
+}
+.medical-header {
+	display: inline-block;
+	width: 100%;
+}
+.medical-categories {
+	display: inline-block;
+	width: 100%;
+}
+.medical-header .medical-box-icon {
+	padding: 15px;
+}
+.medical-header .medical-title {
+	padding-top: 28px;
+}
+.layout-icon-left .medical-grid_v3 .medical-box-icon {
+   	float: left;
+}
+.layout-icon-right .medical-grid_v3 .medical-box-icon {
+   	float: right;
+}
+.layout-icon-center .medical-grid_v3 .medical-box-icon {
+    width: 100%;
+}
+.layout-icon-center .medical-grid_v3 .icon-image {
+	display: inline-block;
+}
+
+/** Medical List **/
+.medical-list {
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+.medical-list .medical-left .medical-box-icon {
+	padding: 15px; 
+}
+.medical-list .medical-left .medical-box-icon img, .medical-list .medical-left .medical-box-icon svg {
+	width: 100%;
+	height: auto;
+}
+.slick-pagination-custom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	outline: none;
+}
+.slick-pagination-custom .progressbar {
+	position: absolute;
+	top: auto;
+	bottom: -40px;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	-ms-transform: translate(-50%);
+	transform: translate(-50%);
+	height: 3px;
+	width: 320px;
+	max-width: 100%;
+	background: #d8d8d8;
+}
+.slick-pagination-custom .filled {
+	background-color: #ff4302;
+	position: relative;
+	height: 100%;
+	-webkit-transition: width .4s;
+	-o-transition: width .4s ;
+	transition: width .4s ;
+}
+.slick-pagination-custom .filled:before { 
+	content: "";
+	position: absolute;
+	top: -6px;
+	right: -7px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: inherit;
+}
+/** Medical List Number **/
+
+.medical-box-number {
+	padding:15px;
+}
+.medical-box-number .medical-number {
+	font-size: 50px;
+	line-height: 1.25;
+	color: #10bcf2;
+}
+
+/** Widget Medical List **/
+.widget-area .sidebar-medical .medical-item {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 20px 0px;
+}
+.widget-area .sidebar-medical .medical-item + .medical-item {
+    border-top: 1px solid #eee;
+}
+.widget-area .sidebar-medical .medical-item .icon {
+	font-size: 36px;
+	margin-right: 20px;
+	width: 36px;
+}
+.widget-area .sidebar-medical .medical-item .icon svg, .widget-area .sidebar-medical .medical-item .icon img{
+	max-width: 36px;
+	height: auto;
+}
+.opalmedical-carousel {
+	margin-bottom: 70px;
+}
+
+.medical-wrapper .medical-box-image{
+	margin-bottom: 20px;
+}
+
+.medical-wrapper .medical-title{
+	margin-bottom: 0px;
+	font-size: 18px;
+}
+
+.medical-wrapper .medical-title a{
+	color: inherit;
+}
+
+.medical-wrapper .doctor-social a{
+	margin-right: 10px;
+}
